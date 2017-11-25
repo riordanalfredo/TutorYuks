@@ -6,114 +6,60 @@
     <title>TutorLists</title>
 
     <!-- Page styles -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-orange.min.css" />
-    <link rel="stylesheet" href="styles.css">
-    <style>
-    #view-source {
-      position: fixed;
-      display: block;
-      right: 0;
-      bottom: 0;
-      margin-right: 40px;
-      margin-bottom: 40px;
-      z-index: 900;
-    }
-    </style>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-orange.min.css"/>
+    <link rel="stylesheet" href="styles/styles.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
 </head>
 
 <body>
 <!-- No header, and the drawer stays open on larger screens (fixed drawer). -->
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
-  <div class="mdl-layout__drawer" style="background-color: #326872">
-    <span class="mdl-layout-title title">TUTORTUTO</span>
-    
-    <nav class="mdl-navigation">
-      <input type="text" name="search" placeholder="Search..">
+    <div class="mdl-layout__drawer" style="background-color: #326872">
+        <span class="mdl-layout-title title">TUTORTUTO</span>
 
-      <a class="mdl-navigation__link" style="color:white" href=""> <i class="material-icons">home</i>&nbsp; HOME</a>    
-      <a class="mdl-navigation__link" style="color:white" href=""> <i class="material-icons">list</i>&nbsp; LISTS</a> 
-      <a class="mdl-navigation__link lists" style="color:white" href=""> <i class="material-icons">call</i>&nbsp; CONTACT </a>
-    </nav>
-  </div>
-  
-  <main class="mdl-layout__content">
-      
-    <!-- Locations -->
-    <div class="motto">LARGEST EDUCATION PLATFORM IN INDONESIA</div>
+        <nav class="mdl-navigation">
+            <input type="text" name="search" placeholder="Search..">
 
-    <div class="page-content contents"><!-- Your content goes here -->
-    
-    <!-- Wide card with share menu button -->
+            <a class="mdl-navigation__link" style="color:white" href=""> <i class="material-icons">home</i>&nbsp;
+                HOME</a>
+            <a class="mdl-navigation__link" style="color:white" href=""> <i class="material-icons">list</i>&nbsp; LISTS</a>
+            <a class="mdl-navigation__link lists" style="color:white" href=""> <i class="material-icons">call</i>&nbsp;
+                CONTACT </a>
+        </nav>
+    </div>
 
-    <div class="demo-card-wide mdl-card mdl-shadow--2dp">
-      <div class="mdl-card__title">
-        <h2 class="mdl-card__title-text"><strong>PRIMAGAMA</strong></h2>
-      </div>
-      <div class="mdl-card__supporting-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Mauris sagittis pellentesque lacus eleifend lacinia...
-      </div>
-      <div class="mdl-card__actions mdl-card--border">
-        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-          More Info
-        </a>
-      </div>
-      <div class="mdl-card__menu">
-        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-          <i class="material-icons">share</i>
-        </button>
-      </div>
-    </div>
-    
-        
-    <br><div class="demo-card-wide mdl-card mdl-shadow--2dp">
-      <div class="mdl-card__title">
-        <h2 class="mdl-card__title-text"><strong>GAJAHMADA</strong></h2>
-      </div>
-      <div class="mdl-card__supporting-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Mauris sagittis pellentesque lacus eleifend lacinia...
-      </div>
-      <div class="mdl-card__actions mdl-card--border">
-        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-          More Info
-        </a>
-      </div>
-      <div class="mdl-card__menu">
-        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-          <i class="material-icons">share</i>
-        </button>
-      </div>
-    </div>
-        
-        
-        
-      
-      
-         
-    </div>
-   <footer> Created by &copy; Holaholuholue</footer>   
-      
-  </main>
-    
+    <main class="mdl-layout__content">
+
+        <!-- Locations -->
+        <div class="motto">LARGEST EDUCATION PLATFORM IN INDONESIA</div>
+
+        <div class="page-content contents"><!-- Your content goes here -->
+
+            <!-- Wide card with share menu button -->
+
+
+
+            <br>
+
+            <div id="TutorInfoCard"></div>
+
+        </div>
+        <footer> Created by &copy; Holaholuholue</footer>
+
+    </main>
+
 </div>
 
-    
-    
-    
-    
-    
+<script src="index.js"></script>
+
+
 </body>
-
-
-
-
-
 
 
 </html>
