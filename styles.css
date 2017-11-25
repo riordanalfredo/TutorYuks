@@ -1,11 +1,15 @@
 
 body{
     
-    background-color: antiquewhite        
+    background-color: antiquewhite;
+     overflow:hidden;
+}
+::-webkit-scrollbar { 
+    display: none; 
 }
 
 .title{
-    color: whitesmoke;
+    color: gold;
     font-size: 25;
 
 }
@@ -39,9 +43,39 @@ body{
   color: #fff;
 }
 
+input[type=text] {
+    margin: 10% 10% 10% 10% ;
+    width: 75%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: antiquewhite;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding: 12px 15px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
 
+/* When the input field gets focus, change its width to 100% */
+
+footer{
+    text-align: center;
+}
+
+.motto{
+    text-align: right;
+    margin: 10px 10% 0px 0px; 
+    font-size: 15px;
+    font-family: monospace;
+    opacity: 0.5;
+    color: black;
+}
 
 .contents{
-    margin: 10% 10% 10% 10%;
+    margin: 5% 10% 10% 10%;
     text-indent: inherit;
 }
