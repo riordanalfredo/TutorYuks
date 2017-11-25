@@ -1,0 +1,47 @@
+
+body{
+    
+    background-color: antiquewhite        
+}
+
+.title{
+    color: whitesmoke;
+    font-size: 25;
+
+}
+
+.lists{
+    color:aliceblue;
+}
+
+.companyname{
+    size:50px;
+}
+
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+
+
+.demo-card-wide.mdl-card {
+  width: auto;
+}
+.demo-card-wide > .mdl-card__title {
+  color: white;
+  height: 176px;
+  background: url('2.jpg') center / cover;
+}
+
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+
+
+.contents{
+    margin: 10% 10% 10% 10%;
+    text-indent: inherit;
+}
